@@ -20,8 +20,8 @@ var isCorrectAnswer = Console.ReadLine();
 if (isCorrectAnswer == "1") {
     flag = false;
 Console.WriteLine($"Hello, {playerName} pleasure to meet you. Let's introduce you to your character.");
-Console.WriteLine($"HP\t\tArmour\t\tAttack Level\t\tAttack DMG\t\tArmour Multi");
-Console.WriteLine($"{playerHP}\t\t{playerArmor}\t\t{playerAttackLevel}\t\t{playerAttackDamage}\t\t{armorMultiplier}");
+Console.WriteLine($"HP\t\tArmour\t\tAttack Level\t\tAttack DMG\tArmour Multi");
+Console.WriteLine($"{playerHP}\t\t{playerArmor}\t\t{playerAttackLevel}\t\t\t{playerAttackDamage}\t\t{armorMultiplier}");
 Console.ReadLine();
 
 }
